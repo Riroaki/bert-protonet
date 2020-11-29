@@ -1,0 +1,22 @@
+# folders
+checkpoint
+
+# files
+*.pyc
+*.swp
+*.tar
+*.sh
+sbatch*
+*.ipynb
+*.out
+
+# data
+bert-base-uncased
+
+# mac cache
+.DS_Store
+
+# editor cache
+.idea
+.vscode
+.venv
