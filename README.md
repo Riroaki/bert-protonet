@@ -50,5 +50,5 @@ optional arguments:
   --dot                 use dot instead of L2 distance for proto
 ```
 ## Performance
-Currently only available for `wiki` dataset, acc=... (==TODO==)
-Trained model can be downloaded [here]()(==TODO==).
+Currently only available for `wiki` dataset, acc=77.37
+Trained model can be downloaded [here](https://drive.google.com/drive/folders/1oM6zSrv5E_MHQQNYCRHcURqOTb7UjZBC?usp=sharing).

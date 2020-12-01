@@ -125,7 +125,8 @@ def main(args):
     test_data_loader = get_loader('val_{}'.format(dataset), sentence_encoder,
                                   N=N, K=K, Q=Q, na_rate=args.na_rate, batch_size=batch_size)
     if args.load_model:
-        model.load_state_dict(torch.load(args.load_model, map_location=device))
+        model.load_state_dict(torch.load(
+            args.load_model, map_location=device)['state_dict'])
 
     # Do training
     if args.train:
